@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+  /* Header */
+}
+.journal--header{
+  display: flex;
+  background-color: #F55A5A;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 17px;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 25px;
+}
+.earth--logo{
+  width: 24px;
+  height: 24px;
+}
+
+/* Main */
+.Main{
+  display: flex;
+  padding: 40px 0 0 40px;
+}
+.content--div{
+  padding: 20px;
+}
+.para--location{
+  font-size: 0.7rem;
+}
+.loc-txt{
+  color: #918E9B;
+  font-size: 0.6875rem;
+}
+.title{
+  font-size: 1.5625rem;
+  padding: 10px 0 10px 0;
+}
+.dates{
+  color: #2B283A;
+  font-weight: bold;
+  font-size: 0.6875rem;
+  padding: 10px 0 10px 0;
+}
+.description{
+  font-size: 0.6875rem;
+  color: #2B283A;
+}
