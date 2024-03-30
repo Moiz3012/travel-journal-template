@@ -9,6 +9,7 @@
   /* Header */
 }
 .journal--header{
+  width: 100%;
   display: flex;
   background-color: #F55A5A;
   align-items: center;
